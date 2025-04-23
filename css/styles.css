@@ -1,0 +1,117 @@
+:root {
+  --main-blue: #1A7DF0;
+  --main-white: #FFFFFF;
+  --additional-yellow: #FFE711;
+  --additional-blue-dark: #005BC5;
+  --additional-black: #333333;
+  --additional-yellow-dark: #F9D100;
+}
+
+.conteiner {
+  padding: 0 calc(50vw - 800px);
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  color: var(--additional-black);
+}
+
+h1 {
+  font-weight: 500;
+}
+
+h2 {
+  font-weight: 400;
+}
+
+h3, h4, h5 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 120%;
+}
+
+a {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  transition: 0.2s;
+}
+a:hover, a:focus {
+  color: var(--main-blue);
+}
+
+button {
+  transition: 0.2s;
+}
+
+.button_1 {
+  border-radius: 100px;
+  padding: 15px 68px;
+  background: var(--additional-yellow);
+  font-weight: 400;
+  font-size: 24px;
+  text-align: center;
+  color: var(--additional-black);
+}
+.button_1:hover, .button_1:focus {
+  background: var(--additional-yellow-dark);
+  font-weight: 500;
+}
+
+.button_2 {
+  border-radius: 100px;
+  padding: 15px 68px;
+  background: var(--main-blue);
+  font-weight: 500;
+  font-size: 24px;
+  text-align: center;
+  color: var(--main-white);
+}
+.button_2:hover, .button_2:focus {
+  background: var(--additional-blue-dark);
+}
+
+.button_3 {
+  border: 1px solid var(--main-blue);
+  border-radius: 100px;
+  padding: 15px 68px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  text-align: center;
+  color: var(--additional-black);
+}
+.button_3:hover, .button_3:focus {
+  color: var(--main-blue);
+}
+
+.button_4 {
+  border: 1px solid var(--additional-black);
+  border-radius: 100px;
+  padding: 10px 25px;
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
+  color: var(--additional-black);
+}
+.button_4:hover, .button_4:focus {
+  color: var(--main-blue);
+}
+
+.button_5 {
+  border: 1px solid var(--main-white);
+  border-radius: 100px;
+  padding: 15px 68px;
+  font-weight: 500;
+  font-size: 24px;
+  text-align: center;
+  color: var(--main-white);
+}
+.button_5:hover, .button_5:focus {
+  border: 1px solid var(--additional-yellow);
+  color: var(--additional-yellow);
+}
+
+/*# sourceMappingURL=styles.css.map */
