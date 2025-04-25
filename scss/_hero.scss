@@ -1,0 +1,72 @@
+.hero {
+    padding: 110px 0;
+    position: relative;
+    overflow: hidden;
+  
+    .conteiner {
+      text-align: center;
+      position: relative;
+      z-index: 1;
+    }
+  
+    &__content {
+      h1 {
+        font-size: 65px;
+        font-weight: 500;
+        margin-bottom: 20px;
+      }
+  
+      p {
+        font-size: 20px;
+        font-weight: 400;
+        margin-bottom: 40px;
+        color: var(--additional-black);
+      }
+    }
+  
+    &__buttons {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+  
+      a {
+        text-decoration: none;
+      }
+    }
+
+    &::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 100%;
+      height: 100%;
+      background: url('../img/hand.png') no-repeat center;
+      background-size: contain;
+      opacity: 0.5;
+      z-index: 0;
+    }
+  
+
+    &__ellipse {
+      position: absolute;
+      width: 355px;
+      height: 355px;
+      border-radius: 50%;
+      opacity: 0.5;
+      z-index: 0;
+      filter: blur(100px);
+
+      &.ellipse-yellow {
+        background: #FFE711;
+        top: 120px;
+        right: -100px;
+      }
+  
+      &.ellipse-blue {
+        background: #057cec;
+        bottom: -100px;
+        left: -100px;
+      }
+    }
+  }

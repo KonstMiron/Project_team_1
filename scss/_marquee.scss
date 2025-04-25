@@ -1,0 +1,40 @@
+.marquee {
+    overflow: hidden;
+    border-top: 2px solid var(--main-blue);
+    border-bottom: 2px solid var(--additional-yellow);
+    background: #fff;
+    padding: 10px 0;
+  
+    &__track {
+      display: flex;
+      width: max-content;
+      animation: marquee 20s linear infinite;
+      gap: 25px;
+    }
+  
+    &__item {
+      font-size: 32px;
+      font-weight: 400;
+      white-space: nowrap;
+      display: flex;
+      align-items: center;
+      gap: 25px;
+    }
+  
+    .flag {
+      display: inline-block;
+      width: 14px;
+      height: 10px;
+      background: linear-gradient(to bottom, #0057B7 50%, #FFD700 50%);
+      border-radius: 1px;
+    }
+  }
+  
+  @keyframes marquee {
+    0% {
+      transform: translateX(0%);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
