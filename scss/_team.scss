@@ -1,0 +1,71 @@
+.team {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: repeat(4, 330px);
+  justify-content: space-between;
+  column-gap: 40px;
+  margin-top: 100px;
+  height: 530px;
+
+  img {
+    border-radius: 30px;
+    width: 330px;
+    height: 372px;
+  }
+
+  figure {
+    margin: 0;
+  }
+
+  &-title {
+    margin: 0;
+    grid-column: 1 / -1;
+    grid-row: 1 / 2;
+    //width: 291px;
+    //height: 49px;
+    font-size: 42px;
+    text-align: center;
+  }
+
+  &-worker-1{
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+    width: 330px;
+    height: 448px;
+  }
+
+  &-worker-2 {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    width: 330px;
+    height: 448px;
+  }
+
+  &-worker-3 {
+    grid-column: 3 / 4;
+    grid-row: 2 / 3;
+    width: 330px;
+    height: 448px;
+  }
+
+  &-worker-4 {
+    grid-column: 4 / 5;
+    grid-row: 2 / 3;
+    width: 330px;
+    height: 448px;
+  }
+
+  &-description {
+
+    &-title {
+      margin: 20px 0 5px 0;
+    }
+
+    &-paragraph {
+      margin: 0;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 150%;
+    }
+  }
+}

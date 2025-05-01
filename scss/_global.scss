@@ -9,7 +9,7 @@
 }
 
 .conteiner {
-  padding: 0 calc(50vw - 800px);
+  padding: 0 calc(50vw - 700px);
 }
 
 body {
@@ -32,8 +32,9 @@ h3, h4, h5 {
 }
 
 a {
+  color: var(--additional-black);
   font-weight: 400;
-  font-size: 12px;
+  //font-size: 12px;
   line-height: 150%;
   text-decoration: underline;
   text-decoration-skip-ink: none;
@@ -42,6 +43,10 @@ a {
   &:hover, &:focus {
     color: var(--main-blue);
   }
+}
+
+ul, ol {
+  list-style-position: outside;
 }
 
 button {
@@ -97,6 +102,7 @@ button {
 }
 
 .button_4 {
+  background: var(--main-white);
   border: 1px solid var(--additional-black);
   border-radius: 100px;
   padding: 10px 25px;
@@ -107,6 +113,7 @@ button {
   color: var(--additional-black);
 
   &:hover, &:focus {
+    border: 1px solid var(--main-blue);
     color: var(--main-blue);
   }
 }
@@ -125,4 +132,11 @@ button {
     border: 1px solid var(--additional-yellow);
     color: var(--additional-yellow);
   }
+}
+
+.small_text {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+  color: var(--additional-black);
 }
