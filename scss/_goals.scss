@@ -4,7 +4,7 @@
     &__wrapper {
       display: flex;
       flex-wrap: wrap;
-      gap: 40px;
+      gap: 20px;
       align-items: flex-start;
     }
   
@@ -12,7 +12,7 @@
       background-color: var(--main-blue);
       color: #fff;
       border-radius: 20px;
-      padding: 40px;
+      padding: 35px;
       flex: 1 1 50%;
       max-width: 710px;
   
@@ -20,6 +20,7 @@
         font-size: 42px;
         font-weight: 400;
         margin-bottom: 25px;
+        margin-top: 0;
       }
   
       
@@ -55,10 +56,8 @@
         border-radius: 15px;
         object-fit: cover;
       }
-  
       .large {
         grid-column: span 2;
-        height: 440px;
       }
     }
   }

@@ -1,0 +1,51 @@
+.video-block {
+    padding: 100px 0;
+  
+    &__wrapper {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 40px;
+      align-items: center;
+    }
+  
+    &__video {
+      flex: 1 1 50%;
+      aspect-ratio: 16 / 9;
+      border-radius: 20px;
+
+  
+      iframe {
+        width: 100%;
+        height: 100%;
+        border: none;
+      }
+    }
+  
+    &__content {
+      flex: 1 1 45%;
+  
+      h3 {
+        font-size: 30px;
+        font-weight: 700;
+        margin-bottom: 20px;
+        line-height: 1.3;
+      }
+  
+      p {
+        font-size: 20px;
+        margin-bottom: 15px;
+        line-height: 1.5;
+      }
+    }
+  
+    &__buttons {
+      gap: 20px;
+  
+      a {
+        text-decoration: none;
+        padding: 15px 65px;
+        font-weight: 500px;
+        font-size: 24px;
+      }
+    }
+  }
