@@ -5,19 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0b404d51-44e7-4a60-9a6e-714c3331779e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/css/normalize.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/_footer.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/_media-1450.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/_media-490.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/_media-700.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/_news.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/_team.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/styles.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/_global.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/_global.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/styles.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +51,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "PROJECT",
-    "last_opened_file_path": "/home/vadim/html/Project_team_1-main/scss",
+    "last_opened_file_path": "/home/vadim/html/main.js",
     "list.type.of.created.stylesheet": "SCSS",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -97,7 +85,9 @@
       <updated>1745421817855</updated>
       <workItem from="1745421819068" duration="21404000" />
       <workItem from="1745511819324" duration="2583000" />
-      <workItem from="1745591763738" duration="50108000" />
+      <workItem from="1745591763738" duration="50418000" />
+      <workItem from="1746211546881" duration="42000" />
+      <workItem from="1746298588317" duration="50000" />
     </task>
     <servers />
   </component>
